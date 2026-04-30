@@ -1,0 +1,1126 @@
+{
+  "id": "english-a1",
+  "title": "English A1",
+  "description": "Basic English course for Ukrainian speakers",
+  "topics": [
+    {
+      "id": "food",
+      "title": "Food",
+      "lessons": [
+        {
+          "id": "food-lesson-1",
+          "title": "Food 1",
+          "exercises": [
+            {
+              "id": "food-1-ex-1",
+              "type": "multiple-choice",
+              "prompt": "apple",
+              "options": [
+                "яблуко",
+                "молоко",
+                "хліб",
+                "вода"
+              ],
+              "correctAnswer": "яблуко",
+              "explanation": "apple = яблуко"
+            },
+            {
+              "id": "food-1-ex-2",
+              "type": "fill-blank",
+              "prompt": "I drink ____.",
+              "question": "Виберіть слово для речення.",
+              "options": [
+                "water",
+                "bread",
+                "apple",
+                "rice"
+              ],
+              "correctAnswer": "water",
+              "explanation": "I drink water. = Я п'ю воду."
+            },
+            {
+              "id": "food-1-ex-3",
+              "type": "match-pairs",
+              "prompt": "З'єднайте слова.",
+              "pairs": [
+                {
+                  "left": "bread",
+                  "right": "хліб"
+                },
+                {
+                  "left": "milk",
+                  "right": "молоко"
+                },
+                {
+                  "left": "tea",
+                  "right": "чай"
+                }
+              ],
+              "explanation": "These are common food and drink words."
+            },
+            {
+              "id": "food-1-ex-4",
+              "type": "build-sentence",
+              "prompt": "Складіть речення: Я їм яблуко.",
+              "correctOrder": [
+                "I",
+                "eat",
+                "an",
+                "apple"
+              ],
+              "explanation": "Use 'an' before apple."
+            },
+            {
+              "id": "food-1-ex-5",
+              "type": "multiple-choice",
+              "prompt": "cheese",
+              "options": [
+                "сир",
+                "чай",
+                "рис",
+                "суп"
+              ],
+              "correctAnswer": "сир",
+              "explanation": "cheese = сир"
+            }
+          ]
+        },
+        {
+          "id": "food-lesson-2",
+          "title": "Food 2",
+          "exercises": [
+            {
+              "id": "food-2-ex-1",
+              "type": "multiple-choice",
+              "prompt": "breakfast",
+              "options": [
+                "сніданок",
+                "вечеря",
+                "вода",
+                "сир"
+              ],
+              "correctAnswer": "сніданок",
+              "explanation": "breakfast = сніданок"
+            },
+            {
+              "id": "food-2-ex-2",
+              "type": "fill-blank",
+              "prompt": "She eats ____.",
+              "question": "Виберіть їжу.",
+              "options": [
+                "rice",
+                "tea",
+                "water",
+                "milk"
+              ],
+              "correctAnswer": "rice",
+              "explanation": "She eats rice. = Вона їсть рис."
+            },
+            {
+              "id": "food-2-ex-3",
+              "type": "build-sentence",
+              "prompt": "Складіть речення: Мені подобається суп.",
+              "correctOrder": [
+                "I",
+                "like",
+                "soup"
+              ],
+              "explanation": "I like soup. = Мені подобається суп."
+            },
+            {
+              "id": "food-2-ex-4",
+              "type": "match-pairs",
+              "prompt": "З'єднайте слова.",
+              "pairs": [
+                {
+                  "left": "soup",
+                  "right": "суп"
+                },
+                {
+                  "left": "rice",
+                  "right": "рис"
+                },
+                {
+                  "left": "dinner",
+                  "right": "вечеря"
+                }
+              ],
+              "explanation": "Food words for meals."
+            },
+            {
+              "id": "food-2-ex-5",
+              "type": "fill-blank",
+              "prompt": "I want ____ tea.",
+              "question": "Виберіть слово.",
+              "options": [
+                "some",
+                "eat",
+                "go",
+                "bus"
+              ],
+              "correctAnswer": "some",
+              "explanation": "I want some tea. = Я хочу трохи чаю."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basic-verbs",
+      "title": "Basic verbs",
+      "lessons": [
+        {
+          "id": "verbs-lesson-1",
+          "title": "Verbs 1",
+          "exercises": [
+            {
+              "id": "verbs-1-ex-1",
+              "type": "multiple-choice",
+              "prompt": "go",
+              "options": [
+                "йти",
+                "мати",
+                "бачити",
+                "пити"
+              ],
+              "correctAnswer": "йти",
+              "explanation": "go = йти"
+            },
+            {
+              "id": "verbs-1-ex-2",
+              "type": "fill-blank",
+              "prompt": "I ____ English.",
+              "question": "Виберіть дієслово.",
+              "options": [
+                "learn",
+                "water",
+                "bus",
+                "apple"
+              ],
+              "correctAnswer": "learn",
+              "explanation": "I learn English. = Я вчу англійську."
+            },
+            {
+              "id": "verbs-1-ex-3",
+              "type": "build-sentence",
+              "prompt": "Складіть речення: Ми йдемо додому.",
+              "correctOrder": [
+                "We",
+                "go",
+                "home"
+              ],
+              "explanation": "We go home. = Ми йдемо додому."
+            },
+            {
+              "id": "verbs-1-ex-4",
+              "type": "match-pairs",
+              "prompt": "З'єднайте дієслова.",
+              "pairs": [
+                {
+                  "left": "see",
+                  "right": "бачити"
+                },
+                {
+                  "left": "have",
+                  "right": "мати"
+                },
+                {
+                  "left": "read",
+                  "right": "читати"
+                }
+              ],
+              "explanation": "These are basic verbs."
+            },
+            {
+              "id": "verbs-1-ex-5",
+              "type": "multiple-choice",
+              "prompt": "write",
+              "options": [
+                "писати",
+                "читати",
+                "їсти",
+                "йти"
+              ],
+              "correctAnswer": "писати",
+              "explanation": "write = писати"
+            }
+          ]
+        },
+        {
+          "id": "verbs-lesson-2",
+          "title": "Verbs 2",
+          "exercises": [
+            {
+              "id": "verbs-2-ex-1",
+              "type": "multiple-choice",
+              "prompt": "speak",
+              "options": [
+                "говорити",
+                "слухати",
+                "спати",
+                "їсти"
+              ],
+              "correctAnswer": "говорити",
+              "explanation": "speak = говорити"
+            },
+            {
+              "id": "verbs-2-ex-2",
+              "type": "build-sentence",
+              "prompt": "Складіть речення: Вона читає книгу.",
+              "correctOrder": [
+                "She",
+                "reads",
+                "a",
+                "book"
+              ],
+              "explanation": "Use reads with she."
+            },
+            {
+              "id": "verbs-2-ex-3",
+              "type": "fill-blank",
+              "prompt": "They ____ music.",
+              "question": "Виберіть дієслово.",
+              "options": [
+                "listen to",
+                "eat",
+                "drink",
+                "go"
+              ],
+              "correctAnswer": "listen to",
+              "explanation": "They listen to music. = Вони слухають музику."
+            },
+            {
+              "id": "verbs-2-ex-4",
+              "type": "match-pairs",
+              "prompt": "З'єднайте дієслова.",
+              "pairs": [
+                {
+                  "left": "sleep",
+                  "right": "спати"
+                },
+                {
+                  "left": "work",
+                  "right": "працювати"
+                },
+                {
+                  "left": "open",
+                  "right": "відкривати"
+                }
+              ],
+              "explanation": "Useful daily verbs."
+            },
+            {
+              "id": "verbs-2-ex-5",
+              "type": "fill-blank",
+              "prompt": "He ____ a car.",
+              "question": "Виберіть дієслово.",
+              "options": [
+                "has",
+                "have",
+                "go",
+                "eat"
+              ],
+              "correctAnswer": "has",
+              "explanation": "Use has with he."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "lessons": [
+        {
+          "id": "travel-lesson-1",
+          "title": "Travel 1",
+          "exercises": [
+            {
+              "id": "travel-1-ex-1",
+              "type": "multiple-choice",
+              "prompt": "ticket",
+              "options": [
+                "квиток",
+                "валіза",
+                "готель",
+                "поїзд"
+              ],
+              "correctAnswer": "квиток",
+              "explanation": "ticket = квиток"
+            },
+            {
+              "id": "travel-1-ex-2",
+              "type": "fill-blank",
+              "prompt": "I need a ____.",
+              "question": "Виберіть слово.",
+              "options": [
+                "ticket",
+                "bread",
+                "tea",
+                "book"
+              ],
+              "correctAnswer": "ticket",
+              "explanation": "I need a ticket. = Мені потрібен квиток."
+            },
+            {
+              "id": "travel-1-ex-3",
+              "type": "match-pairs",
+              "prompt": "З'єднайте слова.",
+              "pairs": [
+                {
+                  "left": "train",
+                  "right": "поїзд"
+                },
+                {
+                  "left": "bus",
+                  "right": "автобус"
+                },
+                {
+                  "left": "airport",
+                  "right": "аеропорт"
+                }
+              ],
+              "explanation": "Travel transport words."
+            },
+            {
+              "id": "travel-1-ex-4",
+              "type": "build-sentence",
+              "prompt": "Складіть речення: Автобус тут.",
+              "correctOrder": [
+                "The",
+                "bus",
+                "is",
+                "here"
+              ],
+              "explanation": "The bus is here. = Автобус тут."
+            },
+            {
+              "id": "travel-1-ex-5",
+              "type": "multiple-choice",
+              "prompt": "hotel",
+              "options": [
+                "готель",
+                "квиток",
+                "місто",
+                "вулиця"
+              ],
+              "correctAnswer": "готель",
+              "explanation": "hotel = готель"
+            }
+          ]
+        },
+        {
+          "id": "travel-lesson-2",
+          "title": "Travel 2",
+          "exercises": [
+            {
+              "id": "travel-2-ex-1",
+              "type": "multiple-choice",
+              "prompt": "city",
+              "options": [
+                "місто",
+                "вулиця",
+                "країна",
+                "сумка"
+              ],
+              "correctAnswer": "місто",
+              "explanation": "city = місто"
+            },
+            {
+              "id": "travel-2-ex-2",
+              "type": "build-sentence",
+              "prompt": "Складіть речення: Я йду до готелю.",
+              "correctOrder": [
+                "I",
+                "go",
+                "to",
+                "the",
+                "hotel"
+              ],
+              "explanation": "to the hotel = до готелю"
+            },
+            {
+              "id": "travel-2-ex-3",
+              "type": "fill-blank",
+              "prompt": "Where is the ____?",
+              "question": "Виберіть слово.",
+              "options": [
+                "station",
+                "rice",
+                "milk",
+                "apple"
+              ],
+              "correctAnswer": "station",
+              "explanation": "Where is the station? = Де станція?"
+            },
+            {
+              "id": "travel-2-ex-4",
+              "type": "match-pairs",
+              "prompt": "З'єднайте слова.",
+              "pairs": [
+                {
+                  "left": "street",
+                  "right": "вулиця"
+                },
+                {
+                  "left": "station",
+                  "right": "станція"
+                },
+                {
+                  "left": "bag",
+                  "right": "сумка"
+                }
+              ],
+              "explanation": "Helpful words for travel."
+            },
+            {
+              "id": "travel-2-ex-5",
+              "type": "fill-blank",
+              "prompt": "The train is ____.",
+              "question": "Виберіть слово.",
+              "options": [
+                "late",
+                "eat",
+                "water",
+                "book"
+              ],
+              "correctAnswer": "late",
+              "explanation": "The train is late. = Поїзд запізнюється."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-prepositions-time",
+      "title": "Prepositions of Time",
+      "lessons": [
+        {
+          "id": "prep-time-lesson-1",
+          "title": "Prepositions of Time 1",
+          "exercises": [
+            {
+              "id": "prep-time-1-ex-1",
+              "type": "fill-blank",
+              "prompt": "Lucy is arriving ___ February the 13th ___ eight o'clock ___ the morning.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": [
+                "on",
+                "at",
+                "in"
+              ],
+              "explanation": "Use 'on' with dates, 'at' with exact times, and 'in' with parts of the day.",
+              "ruleId": "mixed-date-time-part-of-day",
+              "rule": "Use \"on\" with specific dates, \"at\" with exact times, and \"in\" with parts of the day."
+            },
+            {
+              "id": "prep-time-1-ex-2",
+              "type": "fill-blank",
+              "prompt": "The weather is often terrible in London ___ January.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with months.",
+              "ruleId": "in-month",
+              "rule": "Use \"in\" with months. Example: in January."
+            },
+            {
+              "id": "prep-time-1-ex-3",
+              "type": "fill-blank",
+              "prompt": "It's better to get a taxi if you are out alone ___ night.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "at",
+              "explanation": "Use 'at night' as a fixed time expression.",
+              "ruleId": "at-fixed-expression",
+              "rule": "Use \"at\" in fixed time expressions. Example: at night."
+            },
+            {
+              "id": "prep-time-1-ex-4",
+              "type": "fill-blank",
+              "prompt": "She got married ___ September.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with months.",
+              "ruleId": "in-month",
+              "rule": "Use \"in\" with months. Example: in September."
+            },
+            {
+              "id": "prep-time-1-ex-5",
+              "type": "fill-blank",
+              "prompt": "They usually go to the south of France ___ the summer.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with seasons.",
+              "ruleId": "in-season",
+              "rule": "Use \"in\" with seasons. Example: in the summer."
+            },
+            {
+              "id": "prep-time-1-ex-6",
+              "type": "fill-blank",
+              "prompt": "Columbus sailed to the Americas ___ the 16th century.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with centuries.",
+              "ruleId": "in-decade-century",
+              "rule": "Use \"in\" with decades and centuries. Example: in the 16th century."
+            },
+            {
+              "id": "prep-time-1-ex-7",
+              "type": "fill-blank",
+              "prompt": "The Beatles were popular ___ the 1960s.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with decades.",
+              "ruleId": "in-decade-century",
+              "rule": "Use \"in\" with decades and centuries. Example: in the 1960s."
+            },
+            {
+              "id": "prep-time-1-ex-8",
+              "type": "fill-blank",
+              "prompt": "I graduated from university ___ 2001.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with years.",
+              "ruleId": "in-year",
+              "rule": "Use \"in\" with years. Example: in 2001."
+            },
+            {
+              "id": "prep-time-1-ex-9",
+              "type": "fill-blank",
+              "prompt": "His birthday is ___ June.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with months.",
+              "ruleId": "in-month",
+              "rule": "Use \"in\" with months. Example: in June."
+            },
+            {
+              "id": "prep-time-1-ex-10",
+              "type": "fill-blank",
+              "prompt": "I usually go to my parents' house ___ Christmas. We eat turkey together ___ Christmas Day.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": [
+                "at",
+                "on"
+              ],
+              "explanation": "Use 'at Christmas' for the holiday period, but 'on Christmas Day' for the specific day.",
+              "ruleId": "mixed-holiday-period-special-day",
+              "rule": "Use \"at\" for a holiday period in general, but use \"on\" for a specific holiday day. Examples: at Christmas, on Christmas Day."
+            }
+          ]
+        },
+        {
+          "id": "prep-time-lesson-2",
+          "title": "Prepositions of Time 2",
+          "exercises": [
+            {
+              "id": "prep-time-2-ex-1",
+              "type": "fill-blank",
+              "prompt": "The train leaves ___ tomorrow morning ___ 8:00 am.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": [
+                "-",
+                "at"
+              ],
+              "explanation": "Do not use a preposition before 'tomorrow morning'. Use 'at' with exact times.",
+              "ruleId": "mixed-no-preposition-tomorrow-exact-time",
+              "rule": "Do not use a preposition before \"tomorrow morning\". Use \"at\" with exact times."
+            },
+            {
+              "id": "prep-time-2-ex-2",
+              "type": "fill-blank",
+              "prompt": "I love going skiing ___ January.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with months.",
+              "ruleId": "in-month",
+              "rule": "Use \"in\" with months. Example: in January."
+            },
+            {
+              "id": "prep-time-2-ex-3",
+              "type": "fill-blank",
+              "prompt": "We met at the restaurant ___ 8pm.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "at",
+              "explanation": "Use 'at' with exact times.",
+              "ruleId": "at-exact-time",
+              "rule": "Use \"at\" with exact times. Example: at 8pm."
+            },
+            {
+              "id": "prep-time-2-ex-4",
+              "type": "fill-blank",
+              "prompt": "The class is ___ 9am ___ Monday mornings.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": [
+                "at",
+                "on"
+              ],
+              "explanation": "Use 'at' with exact times and 'on' with days or repeated day expressions.",
+              "ruleId": "mixed-exact-time-day-part",
+              "rule": "Use \"at\" with exact times and \"on\" with days or repeated day expressions. Examples: at 9am, on Monday mornings."
+            },
+            {
+              "id": "prep-time-2-ex-5",
+              "type": "fill-blank",
+              "prompt": "I like to drink coffee ___ the morning and tea ___ the afternoon.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": [
+                "in",
+                "in"
+              ],
+              "explanation": "Use 'in' with parts of the day: in the morning, in the afternoon, in the evening.",
+              "ruleId": "in-part-of-day",
+              "rule": "Use \"in\" with parts of the day. Examples: in the morning, in the afternoon."
+            },
+            {
+              "id": "prep-time-2-ex-6",
+              "type": "fill-blank",
+              "prompt": "We went out for dinner ___ last Wednesday.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "-",
+              "explanation": "Do not use a preposition before 'last Wednesday'.",
+              "ruleId": "no-preposition-last-next-every",
+              "rule": "Do not use a preposition before time expressions with \"last\". Example: last Wednesday."
+            },
+            {
+              "id": "prep-time-2-ex-7",
+              "type": "fill-blank",
+              "prompt": "She left London ___ the 4th of March.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Use 'on' with specific dates.",
+              "ruleId": "on-date",
+              "rule": "Use \"on\" with specific dates. Example: on the 4th of March."
+            },
+            {
+              "id": "prep-time-2-ex-8",
+              "type": "fill-blank",
+              "prompt": "I had a party ___ my birthday.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Use 'on' with specific days and special days.",
+              "ruleId": "on-special-day",
+              "rule": "Use \"on\" with specific special days. Example: on my birthday."
+            },
+            {
+              "id": "prep-time-2-ex-9",
+              "type": "fill-blank",
+              "prompt": "Lucy went to New York ___ New Year.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "at",
+              "explanation": "Use 'at New Year' for the holiday period.",
+              "ruleId": "at-holiday-period",
+              "rule": "Use \"at\" when talking about a holiday period in general. Example: at New Year."
+            },
+            {
+              "id": "prep-time-2-ex-10",
+              "type": "fill-blank",
+              "prompt": "We're meeting ___ lunchtime ___ next Tuesday.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": [
+                "at",
+                "-"
+              ],
+              "explanation": "Use 'at lunchtime'. Do not use a preposition before 'next Tuesday'.",
+              "ruleId": "mixed-at-fixed-no-preposition-next",
+              "rule": "Use \"at\" in fixed time expressions like \"at lunchtime\". Do not use a preposition before time expressions with \"next\"."
+            }
+          ]
+        },
+        {
+          "id": "prep-time-lesson-review",
+          "title": "Prepositions of Time Review",
+          "exercises": [
+            {
+              "id": "prep-time-review-ex-1",
+              "type": "fill-blank",
+              "prompt": "There was a loud noise which woke us up ___ midnight.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "at",
+              "explanation": "Use 'at' with exact times and fixed points of time.",
+              "ruleId": "at-exact-time",
+              "rule": "Use \"at\" with exact times and fixed points of time. Example: at midnight."
+            },
+            {
+              "id": "prep-time-review-ex-2",
+              "type": "fill-blank",
+              "prompt": "Do you usually eat chocolate eggs ___ Easter?",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "at",
+              "explanation": "Use 'at Easter' for the holiday period.",
+              "ruleId": "at-holiday-period",
+              "rule": "Use \"at\" when talking about a holiday period in general. Example: at Easter."
+            },
+            {
+              "id": "prep-time-review-ex-3",
+              "type": "fill-blank",
+              "prompt": "What are you doing ___ the weekend?",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "at",
+              "explanation": "In British English, people often say 'at the weekend'.",
+              "ruleId": "at-fixed-expression",
+              "rule": "Use \"at\" in fixed time expressions. Example: at the weekend."
+            },
+            {
+              "id": "prep-time-review-ex-4",
+              "type": "fill-blank",
+              "prompt": "___ last week I worked until 9pm ___ every night.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": [
+                "-",
+                "-"
+              ],
+              "explanation": "Do not use a preposition before 'last week' or 'every night'.",
+              "ruleId": "no-preposition-last-next-every",
+              "rule": "Do not use a preposition before time expressions with \"last\" or \"every\". Examples: last week, every night."
+            },
+            {
+              "id": "prep-time-review-ex-5",
+              "type": "fill-blank",
+              "prompt": "My father always reads the paper ___ breakfast time.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "at",
+              "explanation": "Use 'at' with specific points in the daily routine, like 'at breakfast time'.",
+              "ruleId": "at-fixed-expression",
+              "rule": "Use \"at\" in fixed time expressions. Example: at breakfast time."
+            },
+            {
+              "id": "prep-time-review-ex-6",
+              "type": "fill-blank",
+              "prompt": "She plays tennis ___ Fridays.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Use 'on' with days of the week.",
+              "ruleId": "on-day",
+              "rule": "Use \"on\" with days of the week. Example: on Fridays."
+            },
+            {
+              "id": "prep-time-review-ex-7",
+              "type": "fill-blank",
+              "prompt": "The trees here are really beautiful ___ the spring.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with seasons.",
+              "ruleId": "in-season",
+              "rule": "Use \"in\" with seasons. Example: in the spring."
+            },
+            {
+              "id": "prep-time-review-ex-8",
+              "type": "fill-blank",
+              "prompt": "I'll see you ___ Tuesday afternoon then.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Use 'on' with a day plus part of the day, like 'on Tuesday afternoon'.",
+              "ruleId": "on-day-part-of-day",
+              "rule": "Use \"on\" when a day is combined with a part of the day. Example: on Tuesday afternoon."
+            },
+            {
+              "id": "prep-time-review-ex-9",
+              "type": "fill-blank",
+              "prompt": "Shakespeare died ___ 1616.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with years.",
+              "ruleId": "in-year",
+              "rule": "Use \"in\" with years. Example: in 1616."
+            },
+            {
+              "id": "prep-time-review-ex-10",
+              "type": "fill-blank",
+              "prompt": "She studies ___ every day.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "-",
+              "explanation": "Do not use a preposition before 'every day'.",
+              "ruleId": "no-preposition-last-next-every",
+              "rule": "Do not use a preposition before time expressions with \"every\". Example: every day."
+            },
+            {
+              "id": "prep-time-review-ex-11",
+              "type": "fill-blank",
+              "prompt": "John is going to buy the presents ___ today.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "-",
+              "explanation": "Do not use a preposition before 'today'.",
+              "ruleId": "no-preposition-today-tomorrow-yesterday",
+              "rule": "Do not use a preposition before \"today\". Example: today."
+            },
+            {
+              "id": "prep-time-review-ex-12",
+              "type": "fill-blank",
+              "prompt": "In my hometown, the shops open early ___ the morning.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in the morning'.",
+              "ruleId": "in-part-of-day",
+              "rule": "Use \"in\" with parts of the day. Example: in the morning."
+            },
+            {
+              "id": "prep-time-review-ex-13",
+              "type": "fill-blank",
+              "prompt": "She met her husband ___ 1998.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with years.",
+              "ruleId": "in-year",
+              "rule": "Use \"in\" with years. Example: in 1998."
+            },
+            {
+              "id": "prep-time-review-ex-14",
+              "type": "fill-blank",
+              "prompt": "The party is ___ next Saturday.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "-",
+              "explanation": "Do not use a preposition before 'next Saturday'.",
+              "ruleId": "no-preposition-last-next-every",
+              "rule": "Do not use a preposition before time expressions with \"next\". Example: next Saturday."
+            },
+            {
+              "id": "prep-time-review-ex-15",
+              "type": "fill-blank",
+              "prompt": "We are meeting ___ Friday morning.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Use 'on' with a day plus part of the day.",
+              "ruleId": "on-day-part-of-day",
+              "rule": "Use \"on\" when a day is combined with a part of the day. Example: on Friday morning."
+            },
+            {
+              "id": "prep-time-review-ex-16",
+              "type": "fill-blank",
+              "prompt": "I often get sleepy ___ the afternoon.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in the afternoon'.",
+              "ruleId": "in-part-of-day",
+              "rule": "Use \"in\" with parts of the day. Example: in the afternoon."
+            },
+            {
+              "id": "prep-time-review-ex-17",
+              "type": "fill-blank",
+              "prompt": "His daughter was born ___ the 24th of August.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Use 'on' with specific dates.",
+              "ruleId": "on-date",
+              "rule": "Use \"on\" with specific dates. Example: on the 24th of August."
+            },
+            {
+              "id": "prep-time-review-ex-18",
+              "type": "fill-blank",
+              "prompt": "Mobile phones became popular ___ the nineties.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Use 'in' with decades.",
+              "ruleId": "in-decade-century",
+              "rule": "Use \"in\" with decades. Example: in the nineties."
+            },
+            {
+              "id": "prep-time-review-ex-19",
+              "type": "fill-blank",
+              "prompt": "Luckily the weather was perfect ___ her wedding day.",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "-"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Use 'on' with specific days and special days.",
+              "ruleId": "on-special-day",
+              "rule": "Use \"on\" with specific special days. Example: on her wedding day."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
