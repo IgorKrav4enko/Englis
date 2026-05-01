@@ -17,7 +17,7 @@ export function ExerciseRenderer({ exercise, answer, disabled, onAnswerChange }:
       <MultipleChoiceExercise
         disabled={disabled}
         exercise={exercise}
-        value={typeof answer === "string" || Array.isArray(answer) ? (answer as string | string[]) : ""}
+        value={typeof answer === "string" ? answer : ""}
         onChange={onAnswerChange}
       />
     );
@@ -28,7 +28,7 @@ export function ExerciseRenderer({ exercise, answer, disabled, onAnswerChange }:
       <FillBlankExercise
         disabled={disabled}
         exercise={exercise}
-        value={typeof answer === "string" ? answer : ""}
+        value={typeof answer === "string" || Array.isArray(answer) ? (answer as string | string[]) : ""}
         onChange={onAnswerChange}
       />
     );

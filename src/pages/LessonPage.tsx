@@ -36,7 +36,8 @@ export function LessonPage() {
     return <LessonResult courseId={courseId} result={result} />;
   }
 
-  const exercise = lesson.exercises[index];
+  const currentLesson = lesson;
+  const exercise = currentLesson.exercises[index];
 
   function handleCheck() {
     if (!exercise) {
@@ -54,7 +55,7 @@ export function LessonPage() {
   }
 
   function handleNext() {
-    const isLast = index === lesson.exercises.length - 1;
+    const isLast = index === currentLesson.exercises.length - 1;
     if (isLast) {
       const finalCorrect = correctCount;
       const finalWrong = wrongCount;
@@ -65,7 +66,7 @@ export function LessonPage() {
         xpEarned,
         mistakeExerciseIds: mistakes,
       };
-      completeLesson(lesson.id, finalResult);
+      completeLesson(currentLesson.id, finalResult);
       setResult(finalResult);
       return;
     }
@@ -79,14 +80,14 @@ export function LessonPage() {
     <section className="lesson-page">
       <div className="page-heading">
         <div>
-          <p className="eyebrow">{lesson.title}</p>
+          <p className="eyebrow">{currentLesson.title}</p>
           <h1>{exercise.prompt}</h1>
         </div>
         <Link className="button secondary" to={`/course/${courseId}`}>
           Exit
         </Link>
       </div>
-      <ProgressBar current={index + 1} total={lesson.exercises.length} />
+      <ProgressBar current={index + 1} total={currentLesson.exercises.length} />
       <div className="card exercise-card">
         <ExerciseRenderer
           answer={answer}
@@ -109,7 +110,7 @@ export function LessonPage() {
             </button>
           ) : (
             <button className="button primary" type="button" onClick={handleNext}>
-              {index === lesson.exercises.length - 1 ? "See result" : "Next"}
+              {index === currentLesson.exercises.length - 1 ? "See result" : "Next"}
             </button>
           )}
         </div>
