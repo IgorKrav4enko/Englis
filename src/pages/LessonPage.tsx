@@ -97,10 +97,10 @@ export function LessonPage() {
         />
         {feedback ? (
           <div className={`feedback ${feedback.isCorrect ? "correct" : "incorrect"}`}>
-            <strong>{feedback.isCorrect ? "Correct" : "Incorrect"}</strong>
-            {!feedback.isCorrect ? <p>Correct answer: {feedback.correctAnswer}</p> : null}
+            <strong>{feedback.isCorrect ? "Правильно" : "Неправильно"}</strong>
+            {!feedback.isCorrect ? <p>Правильна відповідь: {feedback.correctAnswer}</p> : null}
             {feedback.explanation ? <p>{feedback.explanation}</p> : null}
-            {feedback.rule ? <p>Rule: {feedback.rule}</p> : null}
+            {feedback.rule ? <p>Правило: {feedback.rule}</p> : null}
           </div>
         ) : null}
         <div className="actions">

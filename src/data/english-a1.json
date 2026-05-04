@@ -514,9 +514,9 @@
                 "at",
                 "in"
               ],
-              "explanation": "Use 'on' with dates, 'at' with exact times, and 'in' with parts of the day.",
+              "explanation": "Правильна відповідь: on / at / in.",
               "ruleId": "mixed-date-time-part-of-day",
-              "rule": "Use \"on\" with specific dates, \"at\" with exact times, and \"in\" with parts of the day."
+              "rule": "Вживай \"on\" з конкретними датами, \"at\" з точним часом, а \"in\" з частинами дня."
             },
             {
               "id": "prep-time-1-ex-2",
@@ -529,9 +529,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with months.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-month",
-              "rule": "Use \"in\" with months. Example: in January."
+              "rule": "Вживай \"in\" з місяцями. Приклад: in January."
             },
             {
               "id": "prep-time-1-ex-3",
@@ -544,9 +544,9 @@
                 "-"
               ],
               "correctAnswer": "at",
-              "explanation": "Use 'at night' as a fixed time expression.",
+              "explanation": "Правильна відповідь: at.",
               "ruleId": "at-fixed-expression",
-              "rule": "Use \"at\" in fixed time expressions. Example: at night."
+              "rule": "Вживай \"at\" у сталих часових виразах. Приклад: at night."
             },
             {
               "id": "prep-time-1-ex-4",
@@ -559,9 +559,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with months.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-month",
-              "rule": "Use \"in\" with months. Example: in September."
+              "rule": "Вживай \"in\" з місяцями. Приклад: in September."
             },
             {
               "id": "prep-time-1-ex-5",
@@ -574,9 +574,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with seasons.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-season",
-              "rule": "Use \"in\" with seasons. Example: in the summer."
+              "rule": "Вживай \"in\" з порами року. Приклад: in the summer."
             },
             {
               "id": "prep-time-1-ex-6",
@@ -589,9 +589,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with centuries.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-decade-century",
-              "rule": "Use \"in\" with decades and centuries. Example: in the 16th century."
+              "rule": "Вживай \"in\" з десятиліттями та століттями. Приклад: in the 16th century."
             },
             {
               "id": "prep-time-1-ex-7",
@@ -604,9 +604,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with decades.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-decade-century",
-              "rule": "Use \"in\" with decades and centuries. Example: in the 1960s."
+              "rule": "Вживай \"in\" з десятиліттями та століттями. Приклад: in the 1960s."
             },
             {
               "id": "prep-time-1-ex-8",
@@ -619,9 +619,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with years.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-year",
-              "rule": "Use \"in\" with years. Example: in 2001."
+              "rule": "Вживай \"in\" з роками. Приклад: in 2001."
             },
             {
               "id": "prep-time-1-ex-9",
@@ -634,9 +634,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with months.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-month",
-              "rule": "Use \"in\" with months. Example: in June."
+              "rule": "Вживай \"in\" з місяцями. Приклад: in June."
             },
             {
               "id": "prep-time-1-ex-10",
@@ -652,9 +652,9 @@
                 "at",
                 "on"
               ],
-              "explanation": "Use 'at Christmas' for the holiday period, but 'on Christmas Day' for the specific day.",
+              "explanation": "Правильна відповідь: at / on.",
               "ruleId": "mixed-holiday-period-special-day",
-              "rule": "Use \"at\" for a holiday period in general, but use \"on\" for a specific holiday day. Examples: at Christmas, on Christmas Day."
+              "rule": "Вживай \"at\" для періоду свята загалом, але \"on\" для конкретного святкового дня. Приклади: at Christmas, on Christmas Day."
             }
           ]
         },
@@ -676,9 +676,9 @@
                 "-",
                 "at"
               ],
-              "explanation": "Do not use a preposition before 'tomorrow morning'. Use 'at' with exact times.",
+              "explanation": "Правильна відповідь: - / at.",
               "ruleId": "mixed-no-preposition-tomorrow-exact-time",
-              "rule": "Do not use a preposition before \"tomorrow morning\". Use \"at\" with exact times."
+              "rule": "Не вживай прийменник перед \"tomorrow morning\". Вживай \"at\" з точним часом."
             },
             {
               "id": "prep-time-2-ex-2",
@@ -691,9 +691,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with months.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-month",
-              "rule": "Use \"in\" with months. Example: in January."
+              "rule": "Вживай \"in\" з місяцями. Приклад: in January."
             },
             {
               "id": "prep-time-2-ex-3",
@@ -706,9 +706,9 @@
                 "-"
               ],
               "correctAnswer": "at",
-              "explanation": "Use 'at' with exact times.",
+              "explanation": "Правильна відповідь: at.",
               "ruleId": "at-exact-time",
-              "rule": "Use \"at\" with exact times. Example: at 8pm."
+              "rule": "Вживай \"at\" з точним часом. Приклад: at 8pm."
             },
             {
               "id": "prep-time-2-ex-4",
@@ -724,9 +724,9 @@
                 "at",
                 "on"
               ],
-              "explanation": "Use 'at' with exact times and 'on' with days or repeated day expressions.",
+              "explanation": "Правильна відповідь: at / on.",
               "ruleId": "mixed-exact-time-day-part",
-              "rule": "Use \"at\" with exact times and \"on\" with days or repeated day expressions. Examples: at 9am, on Monday mornings."
+              "rule": "Вживай \"at\" з точним часом і \"on\" з днями або повторюваними виразами з днями. Приклади: at 9am, on Monday mornings."
             },
             {
               "id": "prep-time-2-ex-5",
@@ -742,9 +742,9 @@
                 "in",
                 "in"
               ],
-              "explanation": "Use 'in' with parts of the day: in the morning, in the afternoon, in the evening.",
+              "explanation": "Правильна відповідь: in / in.",
               "ruleId": "in-part-of-day",
-              "rule": "Use \"in\" with parts of the day. Examples: in the morning, in the afternoon."
+              "rule": "Вживай \"in\" з частинами дня. Приклади: in the morning, in the afternoon."
             },
             {
               "id": "prep-time-2-ex-6",
@@ -757,9 +757,9 @@
                 "-"
               ],
               "correctAnswer": "-",
-              "explanation": "Do not use a preposition before 'last Wednesday'.",
+              "explanation": "Правильна відповідь: -.",
               "ruleId": "no-preposition-last-next-every",
-              "rule": "Do not use a preposition before time expressions with \"last\". Example: last Wednesday."
+              "rule": "Не вживай прийменник перед часовими виразами з \"last\". Приклад: last Wednesday."
             },
             {
               "id": "prep-time-2-ex-7",
@@ -772,9 +772,9 @@
                 "-"
               ],
               "correctAnswer": "on",
-              "explanation": "Use 'on' with specific dates.",
+              "explanation": "Правильна відповідь: on.",
               "ruleId": "on-date",
-              "rule": "Use \"on\" with specific dates. Example: on the 4th of March."
+              "rule": "Вживай \"on\" з конкретними датами. Приклад: on the 4th of March."
             },
             {
               "id": "prep-time-2-ex-8",
@@ -787,9 +787,9 @@
                 "-"
               ],
               "correctAnswer": "on",
-              "explanation": "Use 'on' with specific days and special days.",
+              "explanation": "Правильна відповідь: on.",
               "ruleId": "on-special-day",
-              "rule": "Use \"on\" with specific special days. Example: on my birthday."
+              "rule": "Вживай \"on\" з конкретними особливими днями. Приклад: on my birthday."
             },
             {
               "id": "prep-time-2-ex-9",
@@ -802,9 +802,9 @@
                 "-"
               ],
               "correctAnswer": "at",
-              "explanation": "Use 'at New Year' for the holiday period.",
+              "explanation": "Правильна відповідь: at.",
               "ruleId": "at-holiday-period",
-              "rule": "Use \"at\" when talking about a holiday period in general. Example: at New Year."
+              "rule": "Вживай \"at\", коли говориш про період свята загалом. Приклад: at New Year."
             },
             {
               "id": "prep-time-2-ex-10",
@@ -820,9 +820,9 @@
                 "at",
                 "-"
               ],
-              "explanation": "Use 'at lunchtime'. Do not use a preposition before 'next Tuesday'.",
+              "explanation": "Правильна відповідь: at / -.",
               "ruleId": "mixed-at-fixed-no-preposition-next",
-              "rule": "Use \"at\" in fixed time expressions like \"at lunchtime\". Do not use a preposition before time expressions with \"next\"."
+              "rule": "Вживай \"at\" у сталих часових виразах, наприклад \"at lunchtime\". Не вживай прийменник перед часовими виразами з \"next\"."
             }
           ]
         },
@@ -841,9 +841,9 @@
                 "-"
               ],
               "correctAnswer": "at",
-              "explanation": "Use 'at' with exact times and fixed points of time.",
+              "explanation": "Правильна відповідь: at.",
               "ruleId": "at-exact-time",
-              "rule": "Use \"at\" with exact times and fixed points of time. Example: at midnight."
+              "rule": "Вживай \"at\" з точним часом і фіксованими моментами часу. Приклад: at midnight."
             },
             {
               "id": "prep-time-review-ex-2",
@@ -856,9 +856,9 @@
                 "-"
               ],
               "correctAnswer": "at",
-              "explanation": "Use 'at Easter' for the holiday period.",
+              "explanation": "Правильна відповідь: at.",
               "ruleId": "at-holiday-period",
-              "rule": "Use \"at\" when talking about a holiday period in general. Example: at Easter."
+              "rule": "Вживай \"at\", коли говориш про період свята загалом. Приклад: at Easter."
             },
             {
               "id": "prep-time-review-ex-3",
@@ -871,9 +871,9 @@
                 "-"
               ],
               "correctAnswer": "at",
-              "explanation": "In British English, people often say 'at the weekend'.",
+              "explanation": "Правильна відповідь: at.",
               "ruleId": "at-fixed-expression",
-              "rule": "Use \"at\" in fixed time expressions. Example: at the weekend."
+              "rule": "Вживай \"at\" у сталих часових виразах. Приклад: at the weekend."
             },
             {
               "id": "prep-time-review-ex-4",
@@ -889,9 +889,9 @@
                 "-",
                 "-"
               ],
-              "explanation": "Do not use a preposition before 'last week' or 'every night'.",
+              "explanation": "Правильна відповідь: - / -.",
               "ruleId": "no-preposition-last-next-every",
-              "rule": "Do not use a preposition before time expressions with \"last\" or \"every\". Examples: last week, every night."
+              "rule": "Не вживай прийменник перед часовими виразами з \"last\" або \"every\". Приклади: last week, every night."
             },
             {
               "id": "prep-time-review-ex-5",
@@ -904,9 +904,9 @@
                 "-"
               ],
               "correctAnswer": "at",
-              "explanation": "Use 'at' with specific points in the daily routine, like 'at breakfast time'.",
+              "explanation": "Правильна відповідь: at.",
               "ruleId": "at-fixed-expression",
-              "rule": "Use \"at\" in fixed time expressions. Example: at breakfast time."
+              "rule": "Вживай \"at\" у сталих часових виразах. Приклад: at breakfast time."
             },
             {
               "id": "prep-time-review-ex-6",
@@ -919,9 +919,9 @@
                 "-"
               ],
               "correctAnswer": "on",
-              "explanation": "Use 'on' with days of the week.",
+              "explanation": "Правильна відповідь: on.",
               "ruleId": "on-day",
-              "rule": "Use \"on\" with days of the week. Example: on Fridays."
+              "rule": "Вживай \"on\" з днями тижня. Приклад: on Fridays."
             },
             {
               "id": "prep-time-review-ex-7",
@@ -934,9 +934,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with seasons.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-season",
-              "rule": "Use \"in\" with seasons. Example: in the spring."
+              "rule": "Вживай \"in\" з порами року. Приклад: in the spring."
             },
             {
               "id": "prep-time-review-ex-8",
@@ -949,9 +949,9 @@
                 "-"
               ],
               "correctAnswer": "on",
-              "explanation": "Use 'on' with a day plus part of the day, like 'on Tuesday afternoon'.",
+              "explanation": "Правильна відповідь: on.",
               "ruleId": "on-day-part-of-day",
-              "rule": "Use \"on\" when a day is combined with a part of the day. Example: on Tuesday afternoon."
+              "rule": "Вживай \"on\", коли день поєднаний з частиною дня. Приклад: on Tuesday afternoon."
             },
             {
               "id": "prep-time-review-ex-9",
@@ -964,9 +964,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with years.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-year",
-              "rule": "Use \"in\" with years. Example: in 1616."
+              "rule": "Вживай \"in\" з роками. Приклад: in 1616."
             },
             {
               "id": "prep-time-review-ex-10",
@@ -979,9 +979,9 @@
                 "-"
               ],
               "correctAnswer": "-",
-              "explanation": "Do not use a preposition before 'every day'.",
+              "explanation": "Правильна відповідь: -.",
               "ruleId": "no-preposition-last-next-every",
-              "rule": "Do not use a preposition before time expressions with \"every\". Example: every day."
+              "rule": "Не вживай прийменник перед часовими виразами з \"every\". Приклад: every day."
             },
             {
               "id": "prep-time-review-ex-11",
@@ -994,9 +994,9 @@
                 "-"
               ],
               "correctAnswer": "-",
-              "explanation": "Do not use a preposition before 'today'.",
+              "explanation": "Правильна відповідь: -.",
               "ruleId": "no-preposition-today-tomorrow-yesterday",
-              "rule": "Do not use a preposition before \"today\". Example: today."
+              "rule": "Не вживай прийменник перед \"today\". Приклад: today."
             },
             {
               "id": "prep-time-review-ex-12",
@@ -1009,9 +1009,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in the morning'.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-part-of-day",
-              "rule": "Use \"in\" with parts of the day. Example: in the morning."
+              "rule": "Вживай \"in\" з частинами дня. Приклад: in the morning."
             },
             {
               "id": "prep-time-review-ex-13",
@@ -1024,9 +1024,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with years.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-year",
-              "rule": "Use \"in\" with years. Example: in 1998."
+              "rule": "Вживай \"in\" з роками. Приклад: in 1998."
             },
             {
               "id": "prep-time-review-ex-14",
@@ -1039,9 +1039,9 @@
                 "-"
               ],
               "correctAnswer": "-",
-              "explanation": "Do not use a preposition before 'next Saturday'.",
+              "explanation": "Правильна відповідь: -.",
               "ruleId": "no-preposition-last-next-every",
-              "rule": "Do not use a preposition before time expressions with \"next\". Example: next Saturday."
+              "rule": "Не вживай прийменник перед часовими виразами з \"next\". Приклад: next Saturday."
             },
             {
               "id": "prep-time-review-ex-15",
@@ -1054,9 +1054,9 @@
                 "-"
               ],
               "correctAnswer": "on",
-              "explanation": "Use 'on' with a day plus part of the day.",
+              "explanation": "Правильна відповідь: on.",
               "ruleId": "on-day-part-of-day",
-              "rule": "Use \"on\" when a day is combined with a part of the day. Example: on Friday morning."
+              "rule": "Вживай \"on\", коли день поєднаний з частиною дня. Приклад: on Friday morning."
             },
             {
               "id": "prep-time-review-ex-16",
@@ -1069,9 +1069,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in the afternoon'.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-part-of-day",
-              "rule": "Use \"in\" with parts of the day. Example: in the afternoon."
+              "rule": "Вживай \"in\" з частинами дня. Приклад: in the afternoon."
             },
             {
               "id": "prep-time-review-ex-17",
@@ -1084,9 +1084,9 @@
                 "-"
               ],
               "correctAnswer": "on",
-              "explanation": "Use 'on' with specific dates.",
+              "explanation": "Правильна відповідь: on.",
               "ruleId": "on-date",
-              "rule": "Use \"on\" with specific dates. Example: on the 24th of August."
+              "rule": "Вживай \"on\" з конкретними датами. Приклад: on the 24th of August."
             },
             {
               "id": "prep-time-review-ex-18",
@@ -1099,9 +1099,9 @@
                 "-"
               ],
               "correctAnswer": "in",
-              "explanation": "Use 'in' with decades.",
+              "explanation": "Правильна відповідь: in.",
               "ruleId": "in-decade-century",
-              "rule": "Use \"in\" with decades. Example: in the nineties."
+              "rule": "Вживай \"in\" з десятиліттями. Приклад: in the nineties."
             },
             {
               "id": "prep-time-review-ex-19",
@@ -1114,9 +1114,9 @@
                 "-"
               ],
               "correctAnswer": "on",
-              "explanation": "Use 'on' with specific days and special days.",
+              "explanation": "Правильна відповідь: on.",
               "ruleId": "on-special-day",
-              "rule": "Use \"on\" with specific special days. Example: on her wedding day."
+              "rule": "Вживай \"on\" з конкретними особливими днями. Приклад: on her wedding day."
             }
           ]
         }
