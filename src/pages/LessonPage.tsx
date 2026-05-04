@@ -15,6 +15,7 @@ export function LessonPage() {
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState<unknown>("");
   const [feedback, setFeedback] = useState<CheckResult | null>(null);
+  const [isRevealed, setIsRevealed] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
   const [mistakes, setMistakes] = useState<string[]>([]);
@@ -45,6 +46,7 @@ export function LessonPage() {
     }
     const check = checkAnswer(exercise, answer);
     setFeedback(check);
+    setIsRevealed(false);
     recordExerciseAnswer(exercise.id, check.isCorrect);
     if (check.isCorrect) {
       setCorrectCount((value) => value + 1);
@@ -52,6 +54,17 @@ export function LessonPage() {
       setWrongCount((value) => value + 1);
       setMistakes((value) => [...new Set([...value, exercise.id])]);
     }
+  }
+
+  function handleShow() {
+    if (!exercise) {
+      return;
+    }
+    setFeedback({
+      ...checkAnswer(exercise, answer),
+      isCorrect: false,
+    });
+    setIsRevealed(true);
   }
 
   function handleNext() {
@@ -74,6 +87,7 @@ export function LessonPage() {
     setIndex((value) => value + 1);
     setAnswer("");
     setFeedback(null);
+    setIsRevealed(false);
   }
 
   return (
@@ -81,7 +95,7 @@ export function LessonPage() {
       <div className="page-heading">
         <div>
           <p className="eyebrow">{currentLesson.title}</p>
-          <h1>{exercise.prompt}</h1>
+          <h1>{exercise.type === "fill-blank" ? "Заповни пропуски" : exercise.prompt}</h1>
         </div>
         <Link className="button secondary" to={`/course/${courseId}`}>
           Exit
@@ -97,17 +111,22 @@ export function LessonPage() {
         />
         {feedback ? (
           <div className={`feedback ${feedback.isCorrect ? "correct" : "incorrect"}`}>
-            <strong>{feedback.isCorrect ? "Правильно" : "Неправильно"}</strong>
-            {!feedback.isCorrect ? <p>Правильна відповідь: {feedback.correctAnswer}</p> : null}
+            <strong>{isRevealed ? "Показано відповідь" : feedback.isCorrect ? "Правильно" : "Неправильно"}</strong>
+            {!feedback.isCorrect || isRevealed ? <p>Правильна відповідь: {feedback.correctAnswer}</p> : null}
             {feedback.explanation ? <p>{feedback.explanation}</p> : null}
             {feedback.rule ? <p>Правило: {feedback.rule}</p> : null}
           </div>
         ) : null}
         <div className="actions">
           {!feedback ? (
-            <button className="button primary" type="button" onClick={handleCheck}>
-              Check
-            </button>
+            <>
+              <button className="button check-button" type="button" onClick={handleCheck}>
+                CHECK
+              </button>
+              <button className="button check-button" type="button" onClick={handleShow}>
+                SHOW
+              </button>
+            </>
           ) : (
             <button className="button primary" type="button" onClick={handleNext}>
               {index === currentLesson.exercises.length - 1 ? "See result" : "Next"}

@@ -11,6 +11,7 @@ export function FillBlankExercise({ exercise, value, disabled, onChange }: Props
   const blankCount = Array.isArray(exercise.correctAnswer) ? exercise.correctAnswer.length : 1;
   const optionValues = exercise.options ?? ["in", "on", "at", "-"];
   const multiValue = Array.isArray(value) ? value : Array(blankCount).fill("");
+  const promptParts = exercise.prompt.split("___");
 
   function updateMultiBlank(index: number, answer: string) {
     const next = [...multiValue];
@@ -18,35 +19,40 @@ export function FillBlankExercise({ exercise, value, disabled, onChange }: Props
     onChange(next);
   }
 
-  if (blankCount > 1) {
+  const singleValue = typeof value === "string" ? value : "";
+
+  if (exercise.options?.length && promptParts.length > 1) {
     return (
       <div className="exercise-body">
-        <p className="prompt">{exercise.prompt}</p>
         {exercise.question ? <p className="muted">{exercise.question}</p> : null}
-        <div className="blank-grid">
-          {Array.from({ length: blankCount }, (_, index) => (
-            <label className="blank-select" key={index}>
-              <span>Blank {index + 1}</span>
-              <select
-                disabled={disabled}
-                value={multiValue[index] ?? ""}
-                onChange={(event) => updateMultiBlank(index, event.target.value)}
-              >
-                <option value="">Choose</option>
-                {optionValues.map((option) => (
-                  <option key={option} value={option}>
-                    {option}
-                  </option>
-                ))}
-              </select>
-            </label>
+        <p className="inline-blank-prompt">
+          {promptParts.map((part, index) => (
+            <span key={`${part}-${index}`}>
+              {part}
+              {index < blankCount ? (
+                <select
+                  aria-label={`Blank ${index + 1}`}
+                  className="inline-blank-select"
+                  disabled={disabled}
+                  value={blankCount > 1 ? multiValue[index] ?? "" : singleValue}
+                  onChange={(event) =>
+                    blankCount > 1 ? updateMultiBlank(index, event.target.value) : onChange(event.target.value)
+                  }
+                >
+                  <option value=""></option>
+                  {optionValues.map((option) => (
+                    <option key={option} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </select>
+              ) : null}
+            </span>
           ))}
-        </div>
+        </p>
       </div>
     );
   }
-
-  const singleValue = typeof value === "string" ? value : "";
 
   return (
     <div className="exercise-body">

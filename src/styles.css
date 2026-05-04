@@ -225,6 +225,37 @@ input:disabled {
   margin: 0;
 }
 
+.inline-blank-prompt {
+  color: #202428;
+  font-size: 1.08rem;
+  line-height: 2.1;
+  margin: 0;
+}
+
+.inline-blank-select {
+  appearance: none;
+  background: #ffffff;
+  border: 1px solid #1d1d1d;
+  border-radius: 0;
+  color: #202428;
+  display: inline-block;
+  height: 30px;
+  margin: 0 6px;
+  min-width: 158px;
+  padding: 2px 28px 2px 8px;
+  vertical-align: middle;
+}
+
+.check-button {
+  background: #ee8d6f;
+  border-radius: 999px;
+  color: #1f2528;
+  font-size: 0.78rem;
+  font-weight: 700;
+  min-width: 100px;
+  text-transform: uppercase;
+}
+
 .option-grid {
   display: grid;
   gap: 12px;

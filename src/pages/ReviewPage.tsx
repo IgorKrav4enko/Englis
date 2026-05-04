@@ -23,6 +23,7 @@ export function ReviewPage() {
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState<unknown>("");
   const [feedback, setFeedback] = useState<CheckResult | null>(null);
+  const [isRevealed, setIsRevealed] = useState(false);
   const exercise = exercises[index];
 
   function handleCheck() {
@@ -31,7 +32,19 @@ export function ReviewPage() {
     }
     const check = checkAnswer(exercise, answer);
     setFeedback(check);
+    setIsRevealed(false);
     recordExerciseAnswer(exercise.id, check.isCorrect);
+  }
+
+  function handleShow() {
+    if (!exercise) {
+      return;
+    }
+    setFeedback({
+      ...checkAnswer(exercise, answer),
+      isCorrect: false,
+    });
+    setIsRevealed(true);
   }
 
   function handleNext() {
@@ -44,6 +57,7 @@ export function ReviewPage() {
     }
     setAnswer("");
     setFeedback(null);
+    setIsRevealed(false);
   }
 
   if (!exercise) {
@@ -65,7 +79,7 @@ export function ReviewPage() {
           <p className="eyebrow">
             Review {index + 1} / {exercises.length}
           </p>
-          <h1>{exercise.prompt}</h1>
+          <h1>{exercise.type === "fill-blank" ? "Заповни пропуски" : exercise.prompt}</h1>
         </div>
         <Link className="button secondary" to="/course/english-a1">
           Exit
@@ -80,17 +94,22 @@ export function ReviewPage() {
         />
         {feedback ? (
           <div className={`feedback ${feedback.isCorrect ? "correct" : "incorrect"}`}>
-            <strong>{feedback.isCorrect ? "Правильно" : "Неправильно"}</strong>
-            {!feedback.isCorrect ? <p>Правильна відповідь: {feedback.correctAnswer}</p> : null}
+            <strong>{isRevealed ? "Показано відповідь" : feedback.isCorrect ? "Правильно" : "Неправильно"}</strong>
+            {!feedback.isCorrect || isRevealed ? <p>Правильна відповідь: {feedback.correctAnswer}</p> : null}
             {feedback.explanation ? <p>{feedback.explanation}</p> : null}
             {feedback.rule ? <p>Правило: {feedback.rule}</p> : null}
           </div>
         ) : null}
         <div className="actions">
           {!feedback ? (
-            <button className="button primary" type="button" onClick={handleCheck}>
-              Check
-            </button>
+            <>
+              <button className="button check-button" type="button" onClick={handleCheck}>
+                CHECK
+              </button>
+              <button className="button check-button" type="button" onClick={handleShow}>
+                SHOW
+              </button>
+            </>
           ) : (
             <button className="button primary" type="button" onClick={handleNext}>
               Next
