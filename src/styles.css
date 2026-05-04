@@ -214,6 +214,45 @@ input:disabled {
   gap: 20px;
 }
 
+.worksheet-page {
+  max-width: 100%;
+}
+
+.worksheet-list {
+  display: grid;
+  gap: 12px;
+}
+
+.worksheet-item {
+  box-shadow: none;
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+.worksheet-row {
+  align-items: start;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+}
+
+.worksheet-number {
+  font-size: 1.08rem;
+  line-height: 2.1;
+  white-space: nowrap;
+}
+
+.worksheet-row .exercise-body {
+  min-width: 0;
+}
+
+.worksheet-actions {
+  display: flex;
+  gap: 12px;
+  padding-top: 2px;
+}
+
 .exercise-body {
   display: grid;
   gap: 16px;
@@ -232,8 +271,7 @@ input:disabled {
   margin: 0;
 }
 
-.inline-blank-select {
-  appearance: none;
+.inline-blank-input {
   background: #ffffff;
   border: 1px solid #1d1d1d;
   border-radius: 0;
@@ -242,7 +280,7 @@ input:disabled {
   height: 30px;
   margin: 0 6px;
   min-width: 158px;
-  padding: 2px 28px 2px 8px;
+  padding: 2px 8px;
   vertical-align: middle;
 }
 
@@ -354,6 +392,10 @@ input:disabled {
   margin: 8px 0 0;
 }
 
+.feedback.compact {
+  padding: 12px;
+}
+
 .feedback.correct {
   background: #e0f5e8;
   color: #155d39;
@@ -402,7 +444,12 @@ input:disabled {
   }
 
   .match-row,
+  .worksheet-row,
   .stats-grid {
     grid-template-columns: 1fr;
+  }
+
+  .worksheet-actions {
+    justify-content: flex-start;
   }
 }

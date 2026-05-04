@@ -9,7 +9,6 @@ type Props = {
 
 export function FillBlankExercise({ exercise, value, disabled, onChange }: Props) {
   const blankCount = Array.isArray(exercise.correctAnswer) ? exercise.correctAnswer.length : 1;
-  const optionValues = exercise.options ?? ["in", "on", "at", "-"];
   const multiValue = Array.isArray(value) ? value : Array(blankCount).fill("");
   const promptParts = exercise.prompt.split("___");
 
@@ -30,22 +29,15 @@ export function FillBlankExercise({ exercise, value, disabled, onChange }: Props
             <span key={`${part}-${index}`}>
               {part}
               {index < blankCount ? (
-                <select
+                <input
                   aria-label={`Blank ${index + 1}`}
-                  className="inline-blank-select"
+                  className="inline-blank-input"
                   disabled={disabled}
                   value={blankCount > 1 ? multiValue[index] ?? "" : singleValue}
                   onChange={(event) =>
                     blankCount > 1 ? updateMultiBlank(index, event.target.value) : onChange(event.target.value)
                   }
-                >
-                  <option value=""></option>
-                  {optionValues.map((option) => (
-                    <option key={option} value={option}>
-                      {option}
-                    </option>
-                  ))}
-                </select>
+                />
               ) : null}
             </span>
           ))}
@@ -59,19 +51,12 @@ export function FillBlankExercise({ exercise, value, disabled, onChange }: Props
       <p className="prompt">{exercise.prompt}</p>
       {exercise.question ? <p className="muted">{exercise.question}</p> : null}
       {exercise.options?.length ? (
-        <div className="option-grid">
-          {exercise.options.map((option) => (
-            <button
-              className={`option-button ${singleValue === option ? "selected" : ""}`}
-              disabled={disabled}
-              key={option}
-              type="button"
-              onClick={() => onChange(option)}
-            >
-              {option}
-            </button>
-          ))}
-        </div>
+        <input
+          className="text-input"
+          disabled={disabled}
+          value={singleValue}
+          onChange={(event) => onChange(event.target.value)}
+        />
       ) : (
         <input
           className="text-input"

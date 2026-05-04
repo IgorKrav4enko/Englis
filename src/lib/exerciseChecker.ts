@@ -4,6 +4,12 @@ function normalize(value: string): string {
   return value.trim().replace(/\s+/g, " ").toLowerCase();
 }
 
+function isMatchingFillBlankAnswer(answer: string, expected: string): boolean {
+  const normalizedAnswer = normalize(answer);
+  const normalizedExpected = normalize(expected);
+  return normalizedAnswer === normalizedExpected || (normalizedExpected === "-" && normalizedAnswer === "");
+}
+
 function answerText(exercise: Exercise): string {
   if (exercise.correctAnswer) {
     if (Array.isArray(exercise.correctAnswer)) {
@@ -75,13 +81,13 @@ export function checkAnswer(exercise: Exercise, userAnswer: unknown): CheckResul
         userAnswer.every(
           (answer, index) =>
             typeof answer === "string" &&
-            normalize(answer) === normalize(expectedAnswers[index] ?? ""),
+            isMatchingFillBlankAnswer(answer, expectedAnswers[index] ?? ""),
         );
     } else {
       isCorrect =
         typeof userAnswer === "string" &&
         typeof exercise.correctAnswer === "string" &&
-        normalize(userAnswer) === normalize(exercise.correctAnswer);
+        isMatchingFillBlankAnswer(userAnswer, exercise.correctAnswer);
     }
   }
 
