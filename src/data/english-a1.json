@@ -1121,6 +1121,424 @@
           ]
         }
       ]
+    },
+    {
+      "id": "grammar-prepositions-after-verbs",
+      "title": "Prepositions after Verbs",
+      "lessons": [
+        {
+          "id": "prep-verbs-lesson-1",
+          "title": "Prepositions after Verbs 1",
+          "exercises": [
+            {
+              "id": "prep-verbs-1-ex-1",
+              "type": "fill-blank",
+              "prompt": "Stop worrying ___ your exam - everything will be fine.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "about",
+              "explanation": "Правильна відповідь: about.",
+              "ruleId": "worry-about",
+              "rule": "Після дієслова \"worry\" вживай прийменник \"about\": worry about someone/something."
+            },
+            {
+              "id": "prep-verbs-1-ex-2",
+              "type": "fill-blank",
+              "prompt": "I've waited ___ Judy for 30 minutes. I'm going home.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "wait-for",
+              "rule": "Після дієслова \"wait\" вживай прийменник \"for\": wait for someone/something."
+            },
+            {
+              "id": "prep-verbs-1-ex-3",
+              "type": "fill-blank",
+              "prompt": "Stop talking and concentrate ___ your work.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "concentrate-on",
+              "rule": "Після дієслова \"concentrate\" вживай прийменник \"on\": concentrate on something."
+            },
+            {
+              "id": "prep-verbs-1-ex-4",
+              "type": "fill-blank",
+              "prompt": "Don't forget to pay ___ the newspaper.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "pay-for",
+              "rule": "Після дієслова \"pay\" вживай прийменник \"for\", коли говориш, за що платиш: pay for something."
+            },
+            {
+              "id": "prep-verbs-1-ex-5",
+              "type": "fill-blank",
+              "prompt": "He explained the computer program ___ me.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "explain-something-to-someone",
+              "rule": "Після \"explain\" вживай \"to\" перед людиною: explain something to someone."
+            },
+            {
+              "id": "prep-verbs-1-ex-6",
+              "type": "fill-blank",
+              "prompt": "I don't know what we'll do at the weekend. It depends ___ the weather.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "depend-on",
+              "rule": "Після дієслова \"depend\" вживай прийменник \"on\": depend on someone/something."
+            },
+            {
+              "id": "prep-verbs-1-ex-7",
+              "type": "fill-blank",
+              "prompt": "She will arrive ___ Beijing at 3pm.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "in",
+              "explanation": "Правильна відповідь: in.",
+              "ruleId": "arrive-in",
+              "rule": "Вживай \"arrive in\" з містами або країнами: arrive in Beijing."
+            },
+            {
+              "id": "prep-verbs-1-ex-8",
+              "type": "fill-blank",
+              "prompt": "I like to listen ___ the radio when I wake up.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "listen-to",
+              "rule": "Після дієслова \"listen\" вживай прийменник \"to\": listen to music/the radio."
+            },
+            {
+              "id": "prep-verbs-1-ex-9",
+              "type": "fill-blank",
+              "prompt": "He borrowed £20 ___ his brother.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "from",
+              "explanation": "Правильна відповідь: from.",
+              "ruleId": "borrow-from",
+              "rule": "Після дієслова \"borrow\" вживай \"from\", коли говориш, у кого позичаєш: borrow from someone."
+            },
+            {
+              "id": "prep-verbs-1-ex-10",
+              "type": "fill-blank",
+              "prompt": "Who does this coat belong ___?",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "belong-to",
+              "rule": "Після дієслова \"belong\" вживай прийменник \"to\": belong to someone."
+            },
+            {
+              "id": "prep-verbs-1-ex-11",
+              "type": "fill-blank",
+              "prompt": "She left without paying ___ the meal.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "pay-for",
+              "rule": "Після дієслова \"pay\" вживай прийменник \"for\", коли говориш, за що платиш: pay for something."
+            },
+            {
+              "id": "prep-verbs-1-ex-12",
+              "type": "fill-blank",
+              "prompt": "It was so hot I couldn't concentrate ___ my book.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "concentrate-on",
+              "rule": "Після дієслова \"concentrate\" вживай прийменник \"on\": concentrate on something."
+            },
+            {
+              "id": "prep-verbs-1-ex-13",
+              "type": "fill-blank",
+              "prompt": "Mothers always worry ___ their children.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "about",
+              "explanation": "Правильна відповідь: about.",
+              "ruleId": "worry-about",
+              "rule": "Після дієслова \"worry\" вживай прийменник \"about\": worry about someone/something."
+            },
+            {
+              "id": "prep-verbs-1-ex-14",
+              "type": "fill-blank",
+              "prompt": "Please explain the meaning of this word ___ your classmates.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "explain-something-to-someone",
+              "rule": "Після \"explain\" вживай \"to\" перед людиною: explain something to someone."
+            },
+            {
+              "id": "prep-verbs-1-ex-15",
+              "type": "fill-blank",
+              "prompt": "I'm fed up of waiting ___ spring.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "wait-for",
+              "rule": "Після дієслова \"wait\" вживай прийменник \"for\": wait for someone/something."
+            },
+            {
+              "id": "prep-verbs-1-ex-16",
+              "type": "fill-blank",
+              "prompt": "That car belongs ___ my father.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "belong-to",
+              "rule": "Після дієслова \"belong\" вживай прийменник \"to\": belong to someone."
+            },
+            {
+              "id": "prep-verbs-1-ex-17",
+              "type": "fill-blank",
+              "prompt": "She listens ___ opera on the tube.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "listen-to",
+              "rule": "Після дієслова \"listen\" вживай прийменник \"to\": listen to music/the radio."
+            },
+            {
+              "id": "prep-verbs-1-ex-18",
+              "type": "fill-blank",
+              "prompt": "Which university you go to depends ___ your exam results.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "depend-on",
+              "rule": "Після дієслова \"depend\" вживай прийменник \"on\": depend on someone/something."
+            },
+            {
+              "id": "prep-verbs-1-ex-19",
+              "type": "fill-blank",
+              "prompt": "A lot of people borrow money ___ the bank.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "from",
+              "explanation": "Правильна відповідь: from.",
+              "ruleId": "borrow-from",
+              "rule": "Після дієслова \"borrow\" вживай \"from\", коли говориш, у кого позичаєш: borrow from someone."
+            },
+            {
+              "id": "prep-verbs-1-ex-20",
+              "type": "fill-blank",
+              "prompt": "When she arrived ___ the pub, it was already closed.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "at",
+              "explanation": "Правильна відповідь: at.",
+              "ruleId": "arrive-at",
+              "rule": "Вживай \"arrive at\" з конкретними місцями: arrive at the pub/cinema."
+            }
+          ]
+        },
+        {
+          "id": "prep-verbs-lesson-2",
+          "title": "Prepositions after Verbs 2",
+          "exercises": [
+            {
+              "id": "prep-verbs-2-ex-1",
+              "type": "fill-blank",
+              "prompt": "It's so noisy that I can't concentrate ___ my homework.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "concentrate-on",
+              "rule": "Після дієслова \"concentrate\" вживай прийменник \"on\": concentrate on something."
+            },
+            {
+              "id": "prep-verbs-2-ex-2",
+              "type": "fill-blank",
+              "prompt": "Don't worry - I'll pay ___ the tickets.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "pay-for",
+              "rule": "Після дієслова \"pay\" вживай прийменник \"for\", коли говориш, за що платиш: pay for something."
+            },
+            {
+              "id": "prep-verbs-2-ex-3",
+              "type": "fill-blank",
+              "prompt": "The car belongs ___ my father, so I don't think we can use it.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "belong-to",
+              "rule": "Після дієслова \"belong\" вживай прийменник \"to\": belong to someone."
+            },
+            {
+              "id": "prep-verbs-2-ex-4",
+              "type": "fill-blank",
+              "prompt": "I borrowed a pen ___ my classmate.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "from",
+              "explanation": "Правильна відповідь: from.",
+              "ruleId": "borrow-from",
+              "rule": "Після дієслова \"borrow\" вживай \"from\", коли говориш, у кого позичаєш: borrow from someone."
+            },
+            {
+              "id": "prep-verbs-2-ex-5",
+              "type": "fill-blank",
+              "prompt": "I've been waiting ___ the bus for more than twenty minutes!",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "wait-for",
+              "rule": "Після дієслова \"wait\" вживай прийменник \"for\": wait for someone/something."
+            },
+            {
+              "id": "prep-verbs-2-ex-6",
+              "type": "fill-blank",
+              "prompt": "Julie: \"What time shall we eat dinner?\" Gill: \"It depends ___ John - we'll eat when he gets home.\"",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "depend-on",
+              "rule": "Після дієслова \"depend\" вживай прийменник \"on\": depend on someone/something."
+            },
+            {
+              "id": "prep-verbs-2-ex-7",
+              "type": "fill-blank",
+              "prompt": "When we arrived ___ the cinema, the film had already started.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "at",
+              "explanation": "Правильна відповідь: at.",
+              "ruleId": "arrive-at",
+              "rule": "Вживай \"arrive at\" з конкретними місцями: arrive at the pub/cinema."
+            },
+            {
+              "id": "prep-verbs-2-ex-8",
+              "type": "fill-blank",
+              "prompt": "Please explain this problem ___ us.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "explain-something-to-someone",
+              "rule": "Після \"explain\" вживай \"to\" перед людиною: explain something to someone."
+            },
+            {
+              "id": "prep-verbs-2-ex-9",
+              "type": "fill-blank",
+              "prompt": "She was listening ___ the radio when the doorbell rang.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "listen-to",
+              "rule": "Після дієслова \"listen\" вживай прийменник \"to\": listen to music/the radio."
+            },
+            {
+              "id": "prep-verbs-2-ex-10",
+              "type": "fill-blank",
+              "prompt": "John worries ___ his exam results all the time.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "about",
+              "explanation": "Правильна відповідь: about.",
+              "ruleId": "worry-about",
+              "rule": "Після дієслова \"worry\" вживай прийменник \"about\": worry about someone/something."
+            },
+            {
+              "id": "prep-verbs-2-ex-11",
+              "type": "fill-blank",
+              "prompt": "My flatmate listens ___ a lot of jazz.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "listen-to",
+              "rule": "Після дієслова \"listen\" вживай прийменник \"to\": listen to music/the radio."
+            },
+            {
+              "id": "prep-verbs-2-ex-12",
+              "type": "fill-blank",
+              "prompt": "David paid ___ the drinks.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "pay-for",
+              "rule": "Після дієслова \"pay\" вживай прийменник \"for\", коли говориш, за що платиш: pay for something."
+            },
+            {
+              "id": "prep-verbs-2-ex-13",
+              "type": "fill-blank",
+              "prompt": "Who does that house belong ___?",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "belong-to",
+              "rule": "Після дієслова \"belong\" вживай прийменник \"to\": belong to someone."
+            },
+            {
+              "id": "prep-verbs-2-ex-14",
+              "type": "fill-blank",
+              "prompt": "Don't worry ___ Gemma, she'll be fine.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "about",
+              "explanation": "Правильна відповідь: about.",
+              "ruleId": "worry-about",
+              "rule": "Після дієслова \"worry\" вживай прийменник \"about\": worry about someone/something."
+            },
+            {
+              "id": "prep-verbs-2-ex-15",
+              "type": "fill-blank",
+              "prompt": "She borrowed a jumper ___ Julie.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "from",
+              "explanation": "Правильна відповідь: from.",
+              "ruleId": "borrow-from",
+              "rule": "Після дієслова \"borrow\" вживай \"from\", коли говориш, у кого позичаєш: borrow from someone."
+            },
+            {
+              "id": "prep-verbs-2-ex-16",
+              "type": "fill-blank",
+              "prompt": "Please be quiet. I need to concentrate ___ this book.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "concentrate-on",
+              "rule": "Після дієслова \"concentrate\" вживай прийменник \"on\": concentrate on something."
+            },
+            {
+              "id": "prep-verbs-2-ex-17",
+              "type": "fill-blank",
+              "prompt": "I want to go to the beach tomorrow but it depends ___ the weather.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "on",
+              "explanation": "Правильна відповідь: on.",
+              "ruleId": "depend-on",
+              "rule": "Після дієслова \"depend\" вживай прийменник \"on\": depend on someone/something."
+            },
+            {
+              "id": "prep-verbs-2-ex-18",
+              "type": "fill-blank",
+              "prompt": "Who are you waiting ___?",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "for",
+              "explanation": "Правильна відповідь: for.",
+              "ruleId": "wait-for",
+              "rule": "Після дієслова \"wait\" вживай прийменник \"for\": wait for someone/something."
+            },
+            {
+              "id": "prep-verbs-2-ex-19",
+              "type": "fill-blank",
+              "prompt": "When will we arrive ___ Beijing?",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "in",
+              "explanation": "Правильна відповідь: in.",
+              "ruleId": "arrive-in",
+              "rule": "Вживай \"arrive in\" з містами або країнами: arrive in Beijing."
+            },
+            {
+              "id": "prep-verbs-2-ex-20",
+              "type": "fill-blank",
+              "prompt": "A policeman explained ___ the children why they should never run across the road.",
+              "question": "Впиши правильний прийменник.",
+              "correctAnswer": "to",
+              "explanation": "Правильна відповідь: to.",
+              "ruleId": "explain-something-to-someone",
+              "rule": "Після \"explain\" вживай \"to\" перед людиною: explain something to someone."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
